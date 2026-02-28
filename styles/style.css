@@ -79,7 +79,7 @@ ol {
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 386px;
+  height: 395px;
   padding-bottom: 16px;
 }
 
@@ -120,7 +120,7 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 2;
 }
 
 .title {
@@ -137,6 +137,8 @@ ol {
 }
 
 .content__card-link {
+  display: block;
+  cursor: pointer;
   color: #fff;
   text-decoration: none;
 }
@@ -198,9 +200,6 @@ input[type="text"] {
   border-bottom: 1px solid #fff;
   background-color: #1b1919;
   appearance: none;
-}
-
-input[type="text"] {
   outline: none;
 }
 
@@ -274,11 +273,6 @@ input[type="text"] {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-
-.content__card-link {
-  display: block;
-  cursor: pointer;
 }
 
 .content__card-link_current {
